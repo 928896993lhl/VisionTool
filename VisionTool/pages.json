@@ -3,7 +3,7 @@
 		{
 			"path": "pages/schedule/index",
 			"style": {
-				"navigationBarTitleText": "日程表"
+				"navigationBarTitleText": "日程"
 			}
 		}, 
 		{
@@ -46,24 +46,24 @@
 		"iconfontSrc": "", // app tabbar 字体.ttf文件路径 app 3.4.4+
 		"list": [{
 			"pagePath": "pages/schedule/index",
-			"text": "日程表",
-			"iconPath": "static/tabBar/search.png",
-			"selectedIconPath": "static/tabBar/monitor.png"
+			"text": "日程",
+			"iconPath": "static/tabBar/calendar-check.png",
+			"selectedIconPath": "static/tabBar/calendar-check-fill.png"
 		}, {
 			"pagePath": "pages/photograph/index",
 			"text": "去拍照",
-			"iconPath": "static/tabBar/play-circle.png",
-			"selectedIconPath": "static/tabBar/play-circle-fill.png"
+			"iconPath": "static/tabBar/camera.png",
+			"selectedIconPath": "static/tabBar/camera-fill.png"
 		}, {
 			"pagePath": "pages/backpicture/index",
 			"text": "去返图",
-			"iconPath": "static/tabBar/play-circle.png",
-			"selectedIconPath": "static/tabBar/play-circle-fill.png"
+			"iconPath": "static/tabBar/upload.png",
+			"selectedIconPath": "static/tabBar/cloud-upload.png"
 		}, {
 			"pagePath": "pages/list/index",
 			"text": "单子",
-			"iconPath": "static/tabBar/folder.png",
-			"selectedIconPath": "static/tabBar/folder-open.png"
+			"iconPath": "static/tabBar/project.png",
+			"selectedIconPath": "static/tabBar/project-fill.png"
 		}, {
 			"pagePath": "pages/profile/index",
 			"text": "个人",
