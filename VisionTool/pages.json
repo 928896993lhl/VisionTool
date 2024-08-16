@@ -9,14 +9,9 @@
 		{
 			"path": "pages/photograph/index",
 			"style": {
-				"navigationBarTitleText": "去拍照"
+				"navigationBarTitleText": "拍照"
 			}
 		},{
-			"path": "pages/backpicture/index",
-			"style": {
-				"navigationBarTitleText": "去返图"
-			}
-		}, {
 			"path": "pages/list/index",
 			"style": {
 				"navigationBarTitleText": "单子"
@@ -51,14 +46,9 @@
 			"selectedIconPath": "static/tabBar/calendar-check-fill.png"
 		}, {
 			"pagePath": "pages/photograph/index",
-			"text": "去拍照",
+			"text": "拍照",
 			"iconPath": "static/tabBar/camera.png",
 			"selectedIconPath": "static/tabBar/camera-fill.png"
-		}, {
-			"pagePath": "pages/backpicture/index",
-			"text": "去返图",
-			"iconPath": "static/tabBar/upload.png",
-			"selectedIconPath": "static/tabBar/cloud-upload.png"
 		}, {
 			"pagePath": "pages/list/index",
 			"text": "单子",

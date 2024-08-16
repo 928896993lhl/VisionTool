@@ -1,6 +1,6 @@
 <template>
 	<view class="content" v-for="(item ,index) in infolist" :key="index">
-		<uni-card :title="item.name" :sub-title="item.desc" :extra="item.extra" :thumbnail="item.userpic">
+		<uni-card :title="item.name" :sub-title="item.desc" :extra="item.role" :thumbnail="item.userpic">
 			<image mode="aspectFit" :src="item.illustration"></image>
 			<view slot="actions" class="card-actions">
 				<view class="card-actions-item" @click="actionsClick(item)">
@@ -24,23 +24,23 @@
 						uid: 123,
 						name: "你吃了没",
 						desc: "野生摄影,野生coser,欢迎扩列野生摄影,野生coser,欢迎扩列野生摄影,野生coser,欢迎扩列",
-						extra: "互勉",
+						role: "摄影",
 						userpic: 'https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/unicloudlogo.png',
 						illustration: 'https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/shuijiao.jpg',
 					},
 					{
 						uid: 1234,
 						name: "我吃了呀",
-						desc: "野生摄影2号,野生coser,欢迎扩列",
-						extra: "付费",
+						desc: "野生coser2号,野生coser,欢迎扩列",
+						role: "coser",
 						userpic: 'https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/unicloudlogo.png',
 						illustration: 'https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/shuijiao.jpg',
 					},
 					{
 						uid: 12224,
 						name: "我吃了呀",
-						desc: "野生摄影3号,野生coser,欢迎扩列",
-						extra: "付费",
+						desc: "野生coser3号,野生coser,欢迎扩列",
+						role: "coser",
 						userpic: 'https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/unicloudlogo.png',
 						illustration: 'https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/shuijiao.jpg',
 					}
