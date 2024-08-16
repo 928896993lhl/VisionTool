@@ -1,19 +1,25 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/search/index",
+			"path": "pages/schedule/index",
 			"style": {
-				"navigationBarTitleText": "搜索"
+				"navigationBarTitleText": "日程"
+			}
+		}, 
+		{
+			"path": "pages/photograph/index",
+			"style": {
+				"navigationBarTitleText": "去拍照"
+			}
+		},{
+			"path": "pages/backpicture/index",
+			"style": {
+				"navigationBarTitleText": "去返图"
 			}
 		}, {
-			"path": "pages/audio/index",
+			"path": "pages/list/index",
 			"style": {
-				"navigationBarTitleText": "播放"
-			}
-		}, {
-			"path": "pages/collection/index",
-			"style": {
-				"navigationBarTitleText": "收藏"
+				"navigationBarTitleText": "单子"
 			}
 		}, {
 			"path": "pages/profile/index",
@@ -39,20 +45,25 @@
 		"spacing": "3px",
 		"iconfontSrc": "", // app tabbar 字体.ttf文件路径 app 3.4.4+
 		"list": [{
-			"pagePath": "pages/search/index",
-			"text": "首页",
-			"iconPath": "static/tabBar/search.png",
-			"selectedIconPath": "static/tabBar/monitor.png"
+			"pagePath": "pages/schedule/index",
+			"text": "日程",
+			"iconPath": "static/tabBar/calendar-check.png",
+			"selectedIconPath": "static/tabBar/calendar-check-fill.png"
 		}, {
-			"pagePath": "pages/audio/index",
-			"text": "排期",
-			"iconPath": "static/tabBar/play-circle.png",
-			"selectedIconPath": "static/tabBar/play-circle-fill.png"
+			"pagePath": "pages/photograph/index",
+			"text": "去拍照",
+			"iconPath": "static/tabBar/camera.png",
+			"selectedIconPath": "static/tabBar/camera-fill.png"
 		}, {
-			"pagePath": "pages/collection/index",
-			"text": "选片",
-			"iconPath": "static/tabBar/folder.png",
-			"selectedIconPath": "static/tabBar/folder-open.png"
+			"pagePath": "pages/backpicture/index",
+			"text": "去返图",
+			"iconPath": "static/tabBar/upload.png",
+			"selectedIconPath": "static/tabBar/cloud-upload.png"
+		}, {
+			"pagePath": "pages/list/index",
+			"text": "单子",
+			"iconPath": "static/tabBar/project.png",
+			"selectedIconPath": "static/tabBar/project-fill.png"
 		}, {
 			"pagePath": "pages/profile/index",
 			"text": "个人",
