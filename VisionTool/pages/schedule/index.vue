@@ -11,7 +11,7 @@
 	<view class="container">
 		<uni-section title="日程表" type="line"></uni-section>
 		<view>
-			<uni-calendar class="uni-calendar--hook" :selected="info.selected" :showMonth="true" @change="change"
+			<uni-calendar class="uni-calendar--hook" :selected="info.selected" :showMonth="true" @change="calendarchange"
 				@monthSwitch="monthSwitch" />
 		</view>
 	</view>
@@ -51,13 +51,12 @@
 		methods: {
 			swiperchange(e) {
 				this.current = e.detail.current;
-				console.log('change 返回:', e.detail.current);
 			},
-			change(e) {
-				console.log('change 返回:', e);
+			calendarchange(e) {
+				
 			},
 			monthSwitch(e) {
-				console.log('monthSwitchs 返回:', e);
+				
 			}
 		}
 	};

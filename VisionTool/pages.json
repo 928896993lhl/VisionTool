@@ -12,7 +12,7 @@
 				"navigationBarTitleText": "拍照"
 			}
 		},{
-			"path": "pages/list/index",
+			"path": "pages/orderlist/index",
 			"style": {
 				"navigationBarTitleText": "单子"
 			}
@@ -50,7 +50,7 @@
 			"iconPath": "static/tabBar/camera.png",
 			"selectedIconPath": "static/tabBar/camera-fill.png"
 		}, {
-			"pagePath": "pages/list/index",
+			"pagePath": "pages/orderlist/index",
 			"text": "单子",
 			"iconPath": "static/tabBar/project.png",
 			"selectedIconPath": "static/tabBar/project-fill.png"
